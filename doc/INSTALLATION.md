@@ -29,6 +29,14 @@ Pour obtenir une clé d'API MapQuest sur le module StaticMAP API => https://deve
 Créer un compte sur la plate-forme et générer une clé via le lien "Manage Key".
 Récupérer ensuite le "Consumer Key" qui sera à renseigner dans Vigilo.	
 
+##### UMAP (Openstreetmap)
+
+Vous aurez besoin aussi d'un lien pour la carte qui sera affichée avec la localisation de tous les points où il y a des soucis rencontrés par vos utilisateurs.
+Pour cela, allez sur OpenstreetMap, créez un compte ici (https://www.openstreetmap.org/user/new).
+Validez le mail de confirmation pour la création de votre compte (pensez à vérifier dans le dossier spam si vous ne voyez pas le mail).
+Connectez vous ensuite à votre compte et allez sur cette URL : https://www.openstreetmap.org/#map=15/50.4541/3.9542
+Vous pourrez alors créer la carte qui est à renseigner dans la section SCOPES de votre noeuds Vigilo; c'est l'option tout en bas nommée : URL carte externe.
+
 ##### Twitter
 
 - Créer un compte Twitter dédié à votre scope. Par soucis de cohérence avec toutes les autres instances, il est recommandé d'utiliser le modèle @VigiloVille. Exemples : [VigiloTroyes](https://twitter.com/VigiloTroyes), [VigiloMtp34](https://twitter.com/VigiloMtp34), [VigiloValleeSud](https://twitter.com/VigiloValleeSud), [VigiloMetz](https://twitter.com/VigiloMetz)
